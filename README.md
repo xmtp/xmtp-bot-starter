@@ -2,6 +2,8 @@
 
 Hey you wanna make a bot on the XMTP network? Heck yeah. This repo makes that easier.
 
+This project is in pre-preview status.
+
 ### Usage
 
 ```typescript
