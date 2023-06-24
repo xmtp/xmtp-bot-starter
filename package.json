@@ -1,19 +1,41 @@
 {
-  "name": "xmtp-bot-starter",
-  "version": "0.0.1",
+  "name": "@xmtp/bot-starter",
+  "version": "0.0.0-development",
   "description": "Easy XMTP bots",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "XMTP Labs <eng@xmtp.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/xmtp/xmtp-js",
+  "repository": {
+    "type": "git",
+    "url": "https:git@github.com:xmtp/xmtp-bot-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xmtp/xmtp-bot-starter/issues"
+  },
+  "release": {
+    "branches": [
+      "main",
+      {
+        "name": "beta",
+        "prerelease": true
+      }
+    ]
+  },
   "scripts": {
+    "build": "tsc",
     "test": "jest"
   },
-  "author": "",
-  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.5.0",
     "@types/node": "^18.15.3",
     "jest": "^29.5.0",
     "prettier": "^2.8.5",
-    "ts-jest": "^29.0.5"
+    "ts-jest": "^29.0.5",
+    "typescript": "^5.1.3"
   },
   "dependencies": {
     "@xmtp/xmtp-js": "^7.14.0"
