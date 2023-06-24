@@ -8,7 +8,7 @@ This project is in pre-preview status.
 
 ```typescript
 // TODO: this isn't actually published yet.
-import run from "xmtp-bot-starter";
+import run from "@xmtp/bot-starter";
 
 // Call `run` with a handler function. The handler function is called
 // with a HandlerContext
