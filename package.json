@@ -30,6 +30,7 @@
   },
   "scripts": {
     "build": "tsc",
+    "prepublish": "npm run build",
     "test": "jest"
   },
   "devDependencies": {
