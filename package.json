@@ -16,6 +16,9 @@
   "bugs": {
     "url": "https://github.com/xmtp/xmtp-bot-starter/issues"
   },
+  "files": [
+    "dist"
+  ],
   "release": {
     "branches": [
       "main",
