@@ -1,7 +1,6 @@
 import { Client } from "@xmtp/xmtp-js";
 import { Wallet } from "ethers";
-import { hexToBytes } from "./Utils";
-import "./Environment";
+import "./Environment.js";
 
 export default async function createClient(): Promise<Client> {
   let wallet: Wallet;

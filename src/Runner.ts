@@ -1,5 +1,5 @@
-import createClient from "./Client";
-import HandlerContext from "./HandlerContext";
+import createClient from "./Client.js";
+import HandlerContext from "./HandlerContext.js";
 
 type Handler = (message: HandlerContext) => Promise<void>;
 

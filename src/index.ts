@@ -1,3 +1,3 @@
-import run from "./Runner";
+import run from "./Runner.js";
 
 export default run;
