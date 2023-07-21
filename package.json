@@ -8,6 +8,7 @@
   },
   "author": "XMTP Labs <eng@xmtp.com>",
   "license": "MIT",
+  "type": "module",
   "homepage": "https://github.com/xmtp/xmtp-js",
   "repository": {
     "type": "git",
