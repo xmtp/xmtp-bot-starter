@@ -1,4 +1,7 @@
-# XMTP Bot Starter
+# OBSOLETE: XMTP Bot Starter
+
+> **Important**  
+> `xmtp-bot-starter` has moved to the [`xmtp-node-js-tools`](https://github.com/xmtp/xmtp-node-js-tools) repo.
 
 Hey you wanna make a bot on the XMTP network? Heck yeah. This repo makes that easier.
 
